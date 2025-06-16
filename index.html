@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Francisco </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#cursos" onclick="seleccionar()">CURSOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+    <!-- SECCION INICIO -->
+     <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+            </div>
+            <h1>Francisco Rodriguez Osorio</h1>
+            <h2>Telematics Enginner | Software Enginner</h2>
+            <div class="redes">
+                <a href="https://github.com/fro29"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/franciscorodrigueszosorio29/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+     </section>
+     <!-- SECCION SOBRE MI -->
+      <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Francisco Rodriguez Osorio. </span>Soy ingeniero telemático y me apasiona el desarrollo de software. Diseño, desarrollo y documento soluciones de software utilizando lenguajes como Python, Java, COBOL y C/C++. También tengo experiencia con frameworks modernos como React y Angular.</p>
+            <div class="fila">
+                <!-- Datos Personales -->
+                 <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Email</strong>
+                            francisco29ro@gmail.com
+                        </li>
+                        <li>
+                            <strong>Idiomas</strong>
+                            Ingles (B2)
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Software Enginner</span>
+                        </li>
+                        
+                    </ul>
+                 </div>
+                 <!-- Intereses -->
+                  <div class="col">
+                    <h3>Interes</h3>
+                    <div class="contenedor-interes">
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>        
+                    </div>
+                  </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+      </section>
+      <!-- SECCION SKILLS -->
+       <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Tecnical Skill -->
+                 <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Lenguajes de Programación:</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-brands fa-python"></i>
+                                    <span>Python</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-java"></i>
+                                    <span>Java</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-js"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="intereses">
+                                <i class="fa-solid fa-c"></i>
+                                <span>C/C++</span>
+                                </div>
+                                <div class="intereses">
+                                <i class="fa-solid fa-computer"></i>
+                                <span>COBOL</span>
+                                </div>  
+                                 <div class="intereses">
+                                <i class="fa-brands fa-js"></i>
+                                <span>TypeScript</span>
+                                </div>     
+                    </div>
+                </div>
+                    </div>
+                    <div class="skill">
+                        <span>Repositorios:</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-brands fa-git-alt"></i>
+                                    <span>Git </span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>Github</span>
+                                </div> 
+                                <div class="intereses">
+                                    <i class="fa-brands fa-gitlab"></i>
+                                    <span>Gitlab</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-bitbucket"></i>
+                                    <span>Bitbucket</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Cloud computing platforms:</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-brands fa-aws"></i>
+                                    <span>AWS</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-microsoft"></i>
+                                    <span>Azure</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Database Managers</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-solid fa-database"></i>
+                                    <span>MySQL</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-solid fa-server"></i>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Operating Systems</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-solid fa-database"></i>
+                                    <span>Windows</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-linux"></i>
+                                    <span>Linux</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Internet protocols:</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-solid fa-network-wired"></i>
+                                    <span>•TCP/IP•ARP</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-solid fa-globe"></i>
+                                    <span>•ICMP</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-solid fa-ethernet"></i>
+                                    <span>•DNS</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-solid fa-diagram-project"></i>
+                                    <span>•HTTP/HTTPS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>CI/CD</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-brands fa-jenkins"></i>
+                                    <span>Jenkins</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-dev"></i>
+                                    <span>Terraform</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-docker"></i>
+                                    <span>Docker</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-solid fa-box-open"></i>
+                                    <span>Kubernets</span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Frameworks</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-brands fa-python"></i>
+                                    <span>Flask</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-python"></i>
+                                    <span>Django</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-react"></i>
+                                    <span>React</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-angular"></i>
+                                    <span>Angular</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Machine Learning (ML/IA)</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <span>Deep Learning </span>
+                                </div>
+                                <div class="intereses">
+                                    <span> | </span>
+                                </div>
+                                <div class="intereses">
+                                    <span>Neuronal Networks</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Other knowladge:</span>
+                        <div class="col">
+                            <div class="contenedor-interes">
+                                <div class="intereses">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <span>HTML</span>
+                                </div>
+                                <div class="intereses">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <span>CSS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- Professional Skill -->
+                 <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso Comunicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Reponsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyect">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+       </section>
+       <!-- SECCION CURRICULUM -->
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Ingeniería telemática</h4>
+                            <span class="casa">UPIITA-Instituto Politécnico Nacional</span>
+                            <span class="fecha">Ago 2019 - Jul 2024</span>
+                            <p>
+                                <ul>
+                                    <li>Ingeniería de redes</li>
+                                    <li>SQL</li>
+                                    <li>Estructuras de datos</li>
+                                    <li>Redes neuronales</li>
+                                    <li>Programación</li>
+                                </ul>
+                            </p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <div class="item izq">
+                            <h4>Técnico en Sistemas Digitales</h4>
+                            <span class="casa">C.E.C.y.T. No.1 "Gonzalo Vázquez Vela"-Instituto Politécnico Nacional</span>
+                            <span class="fecha">2016-2019</span>
+                            <p> 
+                                <ul>
+                                    <li>Electrónica</li>
+                                    <li>Arquitectura de redes</li>
+                                    <li>Programación en C</li>
+                                </ul>
+                            </p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col derecha">
+                        <h3>Experiencia de trabajo</h3>
+                        <div class="item der">
+                            <h4>Software Enginner </h4>
+                            <span class="casa">@Softtek</span>
+                            <span class="fecha">Oct 2024 - Present</span>
+                            <p style="text-align: justify;">Participé en un proyecto del sector bancario como ingeniero de software, abordando los requerimientos del cliente para el mantenimiento y desarrollo de sistemas bancarios en COBOL and SQL.
+                            <ul>
+                                    <li>Diseñe, desarrolle, probe, documente aplicaciones de software bancario utilizando COBOL y SQL. </li>
+                                    <li>Identificar y corregir errores en el código existente mientras se proponen mejoras para optimizar el rendimiento y la eficiencia.</li>
+                                    <li>Colaboró ​​con otros desarrolladores para diseñar soluciones de software innovadoras y eficientes, desde la implementación hasta el mantenimiento.</li>
+                                </ul>
+                            </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Servicio Social </h4>
+                            <span class="casa">@Sistema de Transporte Colectivo</span>
+                            <span class="fecha">Abril 2024-Octubre 2024</span>
+                            <p style="text-align: justify;">Colabore en el departamento de Instrumentación Electrónica, realizando mantenimiento preventivo y correctivo en diversos sistemas electrónicos. Mis responsabilidades incluían el diagnóstico y la reparación de problemas utilizando herramientas como multímetros, soldadores, osciloscopios y otros instrumentos esenciales. Esta experiencia me permitió desarrollar sólidas habilidades de resolución de problemas y una gran atención al detalle en el mantenimiento electrónico. </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECCION PORTFOLIO -->
+         <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>PORTAFOLIO</h2>
+                <h3>Sistema de reconocimiento de emociones a través de voz</h3>
+                <hr>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/login.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Login</h3>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/audio.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Captura de audio</h3>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/rep.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Reproducción de audio</h3>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/pred.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Predicción de audio</h3>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/vis.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Visualización de datos</h3>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/ent.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Entrenamiento</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- SECCION CURSO -->
+          <section id="cursos" class="cursos">
+            <div class="contenido-seccion">
+                <h2>CURSOS</h2>
+                <hr>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/cer.png" alt="">
+                        <div class="overlay">
+                            <h3>Networking Basics</h3>
+                            <p>Cisco</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/aw.png" alt="">
+                        <div class="overlay">
+                            <h3>AWS Academy Graduate</h3>
+                            <p>AWS Academy Introduction to Cloud Semester 1</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/sc.png" alt="">
+                        <div class="overlay">
+                            <h3>Scrum Fundamentals Certified (SFC)</h3>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/ude.png" alt="">
+                        <div class="overlay">
+                            <h3>La Guía de Jenkins: ¡De Cero a Experto! | Mayo 2025</h3>
+                            <p>Udemy</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/mic.png" alt="">
+                        <div class="overlay">
+                            <h3>Microsoft Azure Fundamentals: Describe cloud concepts and others.</h3>
+                            <p>Microsoft Azure</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/rea.png" alt="">
+                        <div class="overlay">
+                            <h3>React: De cero a experto (Hooks y MERN)</h3>
+                            <p>Udemy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         
+         <!-- SECCION CONTACTO -->
+          <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <hr>
+                <h3>
+                Puedes contactarme por medio:
+                <br>
+                <i class="fa-solid fa-envelope"></i>
+                francisco29ro@gmail.com
+                </h3>
+            </div>
+          </section>
+          
+          <!-- FOOTER -->
+           <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <h4>Hecha con <i class="fa-solid fa-heart"></i> por @Francisco</h4>
+           </footer>
+           <script src="script.js"></script>
+
+</body>
+</html>
